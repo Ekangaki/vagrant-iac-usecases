@@ -6,7 +6,7 @@ class VagrantPlugins::ProviderVirtualBox::Action::Network
     end
 end
 # IMAGE_NAME = "generic/rhel8"
-IMAGE_NAME = "fedora/38-cloud-base"
+IMAGE_NAME = "fedora/39-cloud-base"
 ANSIBLE_VM_NAME = "ansible-lab-control"
 REMOTE_NODES_NAME = "ansible-lab-node"
 ANSIBLE_REMOTE_NODES = 2
